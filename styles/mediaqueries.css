@@ -185,6 +185,11 @@
     gap: 10px !important;
   }
 
+  .container .social-nav ul li {
+    width: 34px !important;
+    height: 34px !important;
+  }
+
 }
 
 @media (max-width: 580px) {
