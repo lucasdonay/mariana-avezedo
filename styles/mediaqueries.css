@@ -33,7 +33,7 @@
   }
 
   .tecs {
-    height: 168rem !important;
+    height: 141rem !important;
     margin-top: 4rem !important;
   }
 
@@ -58,7 +58,7 @@
 
   .tecs .card-home .text a {
     font-size: 1.5rem !important;
-    padding: 0 !important;
+    padding: 1rem !important;
     font-weight: 600;
   }
 
@@ -142,11 +142,11 @@
 
 @media (max-width: 670px) {
   .bg-mulher {
-    margin-top: 550px !important;
+    margin-top: 399px !important;
   }
 
   .hero-footer {
-    height: 36rem !important;
+    height: 39rem !important;
   }
 
   .tecs-cards .card h3 {
@@ -292,6 +292,12 @@
 }
 
 @media (max-width: 500px) {
+
+  .tecs {
+    height: 151rem !important;
+    margin-top: 4rem !important;
+  }
+
   .tecs .card-home {
     flex-direction: column;
     padding: 1rem !important;
@@ -317,7 +323,7 @@
   }
 
   .bg-mulher {
-    margin-top: 434px !important;
+    margin-top: 400px !important;
     height: 16rem !important;
   }
 
@@ -357,13 +363,13 @@
     border-radius: 5px !important;
   }
 
-  .text button {
+  .text a {
     padding: 1rem !important;
   }
 
   .tecs .card-home .text a {
     font-size: 1.2rem !important;
-    padding: 0 !important;
+    padding: 1rem !important;
     font-weight: 400;
   }
 
@@ -453,8 +459,15 @@
 }
 
 @media (max-width: 364px) {
+
+  .tecs {
+    height: 181rem !important;
+    margin-top: 4rem !important;
+  }
+
+
   .bg-mulher {
-    margin-top: 534px !important;
+    margin-top: 334px !important;
     height: 18rem !important;
   }
 
@@ -478,7 +491,7 @@
     font-size: 1.2rem !important;
     gap: 20px;
     max-width: 124px !important;
-    padding-inline: 20px !important;
+    padding-inline: 43px !important;
   }
 }
 
@@ -569,5 +582,20 @@
   .hero-footer {
     background-size: cover !important;
     height: 23rem !important;
+  }
+}
+
+@media (max-width: 370px) {
+
+  .content-main .procedimentos button a {
+    letter-spacing: 0px !important;
+    padding: 10px !important;
+    font-size: 1.2rem !important;
+    max-width: 124px !important;
+    padding-inline: 20px !important;
+  }
+
+  .content-main .procedimentos button svg {
+    display: none !important;
   }
 }
