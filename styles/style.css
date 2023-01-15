@@ -68,7 +68,7 @@ body {
 /*               HEADER NAV          */
 
 header nav {
-  height: 8rem;
+  height: 6rem;
   background-color: var(--primary-color);
   display: flex;
   justify-content: center;
@@ -141,8 +141,8 @@ nav .container:nth-child(1n) {
 /*               HEADER MENU           */
 
 .header-two {
-  margin-top: 7rem;
-  margin-bottom: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: space-between;
 }
@@ -464,7 +464,7 @@ main .content-main {
 .tratamento-ideal .container {
   display: flex;
   justify-content: space-between;
-  margin-top: 90px;
+  margin-top: 50px;
 }
 
 .tratamento-ideal .container .img {
@@ -549,7 +549,7 @@ main .content-main {
 
 .depoimentos h2 {
   font-size: 7rem;
-  margin: 22rem 0 4rem;
+  margin: 13rem 0 0;
   font-weight: 600;
   align-items: center;
   display: flex;
@@ -711,7 +711,6 @@ footer {
 footer .container {
   display: flex;
   justify-content: space-between;
-  padding-block: 9rem;
   align-items: center;
 }
 
@@ -894,7 +893,7 @@ body.menu-expanded .menu {
   width: 100%;
   position: absolute;
   left: 0;
-  top: 62px;
+  top: 50px;
   padding: 140px;
   align-items: center;
   justify-content: center;
@@ -1004,7 +1003,7 @@ body.menu-expanded button path {
 
 .template-tecs {
   padding-top: 111px;
-  margin-top: 10rem;
+  margin-top: 3rem;
   padding-bottom: 13rem;
   max-height: 105rem;
   background: linear-gradient(to top, transparent 65%, #d8af97 400%);
