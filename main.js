@@ -1,6 +1,6 @@
 const swiper = new Swiper('.swiper', {
   slidesPerView: 3,
-  spaceBetween: 20,
+  spaceBetween: 10,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -12,24 +12,24 @@ const swiper = new Swiper('.swiper', {
   loop: 'on',
   breakpoints: {
     297: {
-      slidesPerView: 2,
-      spaceBetween: 28
+      slidesPerView: 1,
+      spaceBetween: 10
     },
     500: {
-      slidesPerView: 2,
-      spaceBetween: 33
+      slidesPerView: 1,
+      spaceBetween: 10
     },
-    700: {
+    580: {
       slidesPerView: 2,
-      spaceBetween: 35
+      spaceBetween: 10
     },
     991: {
-      slidesPerView: 3,
-      spaceBetween: 38
+      slidesPerView: 2.2,
+      spaceBetween: 15
     },
     1200: {
       slidesPerView: 3,
-      spaceBetween: 0
+      spaceBetween: 33
     }
   }
 });

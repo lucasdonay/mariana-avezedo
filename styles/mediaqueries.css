@@ -1,0 +1,561 @@
+@media (max-width: 900px) {
+
+  .content-main .info {
+    max-width: 550px;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .content-main .info .text {
+    font-size: 3rem;
+    max-width: 300px;
+  }
+
+  .content-main .wpp button a {
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-main .procedimentos button a {
+    max-width: 200px;
+    justify-content: center;
+  }
+
+  .hero h2 {
+    font-size: 4rem !important;
+  }
+
+  .tecs {
+    height: 168rem !important;
+    margin-top: 4rem !important;
+  }
+
+  .tecs .card-home {
+    gap: 50px !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .tecs .card-home h2 {
+    font-size: 2.4rem !important;
+  }
+
+  .tecs .card-home p {
+    font-size: 1.4rem !important;
+  }
+
+  .tecs .card-home img {
+    max-height: 273px !important;
+    max-width: 229px !important;
+    object-fit: cover;
+  }
+
+  .tecs .card-home .text a {
+    font-size: 1.5rem !important;
+    padding: 0 !important;
+    font-weight: 600;
+  }
+
+  .bg-mulher h1 a {
+    font-size: 2rem !important;
+  }
+
+  .bg-mulher {
+    height: 35rem !important;
+  }
+
+  .tratamento-ideal {
+    margin-top: -16rem !important;
+  }
+
+  .tratamento-ideal .container {
+    flex-direction: column;
+    max-width: 600px !important;
+  }
+
+  .tratamento-ideal .container .img {
+    margin: 0 auto !important;
+  }
+
+  .tratamento-ideal .text {
+    align-items: center !important;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -97px !important;
+  }
+
+  .depoimentos .cards .card {
+    padding: 2rem !important;
+  }
+
+  .cards {
+    padding: 0 !important;
+  }
+
+  .depoimentos h2 {
+    font-size: 4rem !important;
+  }
+
+  .depoimentos p {
+    font-size: 1rem !important;
+    margin-top: 2rem !important;
+  }
+
+  .depoimentos strong {
+    font-size: 2rem !important;
+  }
+
+  .cards .card .svg svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .cards h2 {
+    font-size: 4rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  footer .container {
+    padding-block: 0;
+  }
+
+  .hero-footer {
+    height: 40rem !important;
+  }
+
+  .content-hero-footer {
+    padding-top: 3rem !important;
+    max-width: 300px;
+  }
+
+  .tecs-cards .card {
+    max-width: 200px !important;
+  }
+}
+
+@media (max-width: 670px) {
+  .bg-mulher {
+    margin-top: 550px !important;
+  }
+
+  .hero-footer {
+    height: 36rem !important;
+  }
+
+  .tecs-cards .card h3 {
+    font-size: 1.7rem !important;
+  }
+
+  body.menu-expanded .menu {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  body.menu-expanded .header-two ul {
+    position: absolute;
+    left: 0;
+  }
+
+  body.menu-expanded .logo img {
+    display: none;
+  }
+
+  body.menu-expanded ul {
+    margin-left: 30px;
+  }
+
+}
+
+@media (max-width: 580px) {
+
+  .header-two {
+    margin-bottom: 0 !important;
+  }
+
+  .mariana {
+    max-width: 320px !important;
+    transition: ease-in-out 0.3s;
+  }
+
+  .mariana img:hover {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-bottom: 0 !important;
+  }
+
+  .content-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-main .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .tecs .card-home {
+    padding: 3rem !important;
+  }
+
+  .bg-mulher {
+    margin-top: 100px !important;
+  }
+
+  .cards .card .svg svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .depoimentos .cards {
+    gap: 11px !important;
+  }
+
+  .depoimentos p {
+    margin-top: 2rem !important;
+  }
+
+  .depoimentos h2 {
+    font-size: 2.3rem !important;
+    margin-top: 14rem !important;
+  }
+
+  .depoimentos strong {
+    font-size: 1.3rem !important;
+  }
+
+  .bg-mulher {
+    height: 27rem !important;
+  }
+
+  .tecs .card-home img {
+    max-height: 173px !important;
+    max-width: 129px !important;
+    object-fit: cover !important;
+  }
+
+  .hero-footer {
+    background-size: cover !important;
+    height: 32rem !important;
+  }
+
+  .swiper-slide .content {
+    padding-inline: 33px !important;
+  }
+
+  .swiper-slide {
+    margin-right: 6px !important;
+  }
+
+  .content-hero-footer h2 {
+    font-size: 4rem !important;
+  }
+
+  footer {
+    margin-top: -3rem !important;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 4rem !important;
+  }
+
+  .footer-logo {
+    margin: 50px 0px;
+  }
+
+  .depoimentos .cards .card {
+    padding: 4rem !important;
+  }
+
+
+
+}
+
+@media (max-width: 500px) {
+  .tecs .card-home {
+    flex-direction: column;
+    padding: 1rem !important;
+  }
+
+  .tecs .card-home img {
+    max-height: 199px !important;
+    max-width: 201px !important;
+    object-fit: cover !important;
+  }
+
+  .tecs .card-home h2 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .tecs .card-home p {
+    text-align: center !important;
+  }
+
+  .text button {
+    margin-top: 1rem !important;
+  }
+
+  .bg-mulher {
+    margin-top: 434px !important;
+    height: 16rem !important;
+  }
+
+  .bg-mulher h1 a {
+    font-size: 2rem !important;
+    padding: 1rem !important;
+  }
+
+  .tratamento-ideal img {
+    max-height: 285px !important;
+  }
+
+  .contact {
+    margin-top: 2rem !important;
+  }
+
+  body.menu-expanded .content-main {
+    margin-top: 14rem !important;
+  }
+
+  body.menu-expanded .logo img {
+    display: none;
+  }
+
+  body.menu-expanded ul {
+    margin-left: 30px;
+  }
+
+  .tecs .card-home img {
+    border-radius: 5px !important;
+  }
+
+  .text button {
+    padding: 1rem !important;
+  }
+
+  .tecs .card-home .text a {
+    font-size: 1.2rem !important;
+    padding: 0 !important;
+    font-weight: 400;
+  }
+
+  .text button {
+    padding: 2rem !important;
+    font-size: 2rem !important;
+  }
+
+  .depoimentos h2 {
+    letter-spacing: 0px !important;
+    font-size: 2rem !important;
+  }
+
+  .cards h2 {
+    font-size: 2rem !important;
+    margin-bottom: 0px !important;
+  }
+
+  .swiper-slide .content {
+    padding-inline: 53px !important;
+  }
+
+  .swiper-slide {
+    margin-right: 9px !important;
+  }
+
+  .hero-footer {
+    background-size: cover !important;
+    height: 24rem !important;
+  }
+
+  .content-hero-footer {
+    padding-top: 2rem !important;
+    max-width: 300px !important;
+  }
+
+  .content-hero-footer h2 {
+    font-size: 3rem !important;
+  }
+
+  .content-hero-footer h3 {
+    font-size: 2rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .content-hero-footer button {
+    background: transparent !important;
+  }
+
+  .content-hero-footer .wpp button a {
+    letter-spacing: 0px !important;
+    padding: 15px !important;
+    font-size: 1.8rem !important;
+    gap: 20px;
+    max-width: 190px !important;
+    padding-inline: 20px !important;
+
+  }
+
+  .hero h2 {
+    font-size: 3rem !important;
+    padding-top: 2.5rem !important;
+  }
+
+  .swiper-slide {
+    padding: -1rem !important;
+  }
+
+  .depoimentos .cards .card {
+    padding: 2.5rem 1.5rem !important;
+  }
+
+  .copy span {
+    font-size: 1.5rem !important;
+  }
+
+  .buttonwpp {
+    margin-right: 15px !important;
+    margin-bottom: 150px !important;
+  }
+
+  .buttonwpp ion-icon {
+    width: 45px !important;
+    height: 45px !important;
+  }
+
+}
+
+@media (max-width: 364px) {
+  .bg-mulher {
+    margin-top: 534px !important;
+    height: 18rem !important;
+  }
+
+  .bg-mulher h1 a {
+    font-size: 1.4rem !important;
+    padding: 1rem !important;
+  }
+
+  .hero-footer {
+    background-size: cover !important;
+    height: 23rem !important;
+  }
+
+  .content-hero-footer .wpp {
+    margin-top: 1rem !important;
+  }
+
+  .wpp button a {
+    letter-spacing: 0px !important;
+    padding: 10px !important;
+    font-size: 1.2rem !important;
+    gap: 20px;
+    max-width: 124px !important;
+    padding-inline: 20px !important;
+  }
+}
+
+/* Tecnicas */
+
+@media (max-width: 1175px) {
+  .template-tecs {
+    max-height: 155rem !important;
+  }
+
+  .tecnicas {
+    flex-direction: column;
+  }
+
+  .tecnicas-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+    text-align: center;
+    padding: 0 5rem;
+  }
+
+  .tecnicas img {
+    max-width: 400px !important;
+    max-height: 400px !important;
+  }
+
+  .hero-footer {
+    background-size: cover !important;
+  }
+}
+
+@media (max-width: 745px) {
+  .template-tecs {
+    max-height: 195rem !important;
+  }
+
+  .tecnicas {
+    gap: 50px !important;
+  }
+
+  .tecnicas img {
+    max-width: 400px !important;
+    max-height: 400px !important;
+  }
+
+  .hero-footer {
+    background-size: cover !important;
+  }
+}
+
+@media (max-width: 565px) {
+  .template-tecs {
+    max-height: 225rem !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .tecnicas h1 {
+    font-size: 2.5rem !important;
+    margin: 1rem auto !important;
+  }
+
+  .tecnicas h2 {
+    font-size: 2.5rem !important;
+    margin: 1rem auto !important;
+  }
+
+  .tecnicas p {
+    font-size: 1.5rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .tecnicas ul li {
+    font-size: 1.8rem !important;
+    margin-top: 1.4rem !important;
+  }
+
+  .tecnicas-info {
+    padding: 0 2rem;
+  }
+
+  .tecnicas img {
+    max-width: 300px !important;
+    max-height: 300px !important;
+  }
+
+  .hero-footer {
+    background-size: cover !important;
+    height: 23rem !important;
+  }
+}

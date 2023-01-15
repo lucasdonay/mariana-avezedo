@@ -1,3 +1,5 @@
+@import './mediaqueries.css';
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +8,7 @@
   text-decoration: none;
 }
 
+@import 'mediaqueries.css';
 /*             CONFIGS INICIAIS           */
 
 :root {
@@ -44,7 +47,7 @@ button {
   width: 100%;
   max-width: 142.5rem;
   margin: 0 auto;
-  padding: 0 3.5rem;
+  padding: 0 4.5rem;
 }
 
 body {
@@ -211,6 +214,7 @@ main .content-main {
 
 .text {
   font-size: 5rem;
+  max-width: 500px;
   font-weight: 700;
   color: var(--primary-color);
 }
@@ -223,6 +227,7 @@ main .content-main {
   padding: 20px 42px 20px 42px;
   font-size: 2rem;
   color: white;
+  max-width: 300px;
   font-weight: 600;
   cursor: pointer;
   align-items: center;
@@ -255,8 +260,8 @@ main .content-main {
   align-items: center;
   display: flex;
   text-align: center;
-  gap: 20px;
   width: 100%;
+  max-width: 300px;
   transition: ease-in-out 0.3s;
 }
 
@@ -273,10 +278,13 @@ main .content-main {
   fill: var(--third-color);
 }
 
+.mariana {
+  max-width: 500px;
+  max-height: 480px;
+  transition: ease-in-out 0.3s;
+}
 
 .mariana img {
-  max-width: 550px;
-  height: 550px;
   transition: ease-in-out 0.3s;
 }
 
@@ -395,6 +403,8 @@ main .content-main {
 .tecs .card-home img {
   border-radius: 30px;
   height: 400px;
+  max-width: 400px;
+  object-fit: cover;
 }
 
 
@@ -444,14 +454,13 @@ main .content-main {
 
 .tratamento-ideal .container {
   display: flex;
-  gap: 300px;
+  justify-content: space-between;
   margin-top: 90px;
-
 }
 
 .tratamento-ideal img {
-  width: 750px;
-  height: 500px;
+  max-width: 650px;
+  max-height: 400px;
   margin-top: 100px;
   padding-bottom: 20px;
   transition: ease-in-out 0.3s;
@@ -515,7 +524,8 @@ main .content-main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6rem 4rem;
+  padding: 2rem 2rem;
+  margin-inline: 15px;
   background-color: var(--third-color);
   border-radius: 10%;
 }
@@ -538,7 +548,7 @@ main .content-main {
 
 .depoimentos p {
   font-size: 2rem;
-  margin: 6rem 0 1rem;
+  margin: 3rem 0 1rem;
   text-align: center;
   font-weight: 300;
   font-family: 'Dosis', sans-serif;
@@ -587,7 +597,7 @@ main .content-main {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  width: 400px;
+  width: 300px;
   height: 400px;
   /* Center slide text vertically */
   display: -webkit-box;
@@ -602,7 +612,7 @@ main .content-main {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  padding: 10rem 0;
+  padding: 22rem 0 32rem 0;
   border-radius: 10%;
 }
 
@@ -625,7 +635,7 @@ main .content-main {
 
 .swiper-slide .content {
   padding-inline: 50px;
-  margin-inline: 50px;
+  margin-inline: 0px;
   border-radius: 32px;
 }
 
@@ -646,7 +656,7 @@ main .content-main {
   background-position: right center;
   background-attachment: local;
   width: 100%;
-  height: 70rem;
+  height: 65rem;
   /* margin-top: 14rem; */
   box-shadow: 0px 7px 5px 0px rgb(0 0 0 / 15%);
 }
@@ -894,11 +904,11 @@ body.menu-expanded .menu {
   margin-top: 4rem;
   font-weight: 300;
   font-family: Dosis, sans-serif;
-  color: rgb(80, 79, 81);
+  color: white;
 }
 
 .menu ul li a:hover {
-  color: white;
+  color: var(--third-color);
   text-decoration: none;
 }
 
@@ -1043,6 +1053,36 @@ body.menu-expanded button path {
   cursor: pointer;
 }
 
-.swiper-wrapper {
-  padding-bottom: 110px;
+.buttonwpp {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin-right: 80px;
+  margin-bottom: 220px;
+}
+
+.buttonwpp ion-icon {
+  color: #2DDE98;
+  width: 55px;
+  height: 55px;
+}
+
+.buttonwpp a {
+  background-color: rgba(116, 116, 116, 0.226);
+  border-radius: 55%;
+  width: 5px;
+  height: 5px;
+}
+
+.buttonwpp ion-icon:hover {
+  color: white;
+  background-color: #2DDE98;
+  border-radius: 90%;
+  width: 60px;
+  padding: 1rem;
+  height: 60px;
+}
+
+body.menu-expanded .hero {
+  margin-top: 9rem;
 }
