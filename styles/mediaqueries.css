@@ -358,14 +358,14 @@
   }
 
 
-  body.menu-expanded .content-main {
+  /* body.menu-expanded .content-main {
     margin-top: 14rem !important;
-  }
+  } */
 
   body.menu-expanded .hero,
   body.menu-expanded .template-tecs,
   body.menu-expanded .content-main {
-    margin-top: 19rem !important;
+    margin-top: 29rem !important;
   }
 
   body.menu-expanded .logo img {
@@ -608,9 +608,21 @@
     background-size: cover !important;
     height: 23rem !important;
   }
+
+  .content-main .procedimentos button a {
+    letter-spacing: 0px !important;
+    padding: 10px !important;
+    font-size: 1.2rem !important;
+    max-width: 124px !important;
+    padding-inline: 20px !important;
+  }
+
+  .content-hero-footer .wpp {
+    margin-top: 1rem !important;
+  }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 400px) {
 
   .content-main .procedimentos button a {
     letter-spacing: 0px !important;
@@ -622,5 +634,9 @@
 
   .content-main .procedimentos button svg {
     display: none !important;
+  }
+
+  .content-hero-footer .wpp {
+    margin-top: 1rem !important;
   }
 }
