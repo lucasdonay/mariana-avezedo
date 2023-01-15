@@ -893,7 +893,7 @@ body.menu-expanded .menu {
   position: absolute;
   left: 0;
   top: 62px;
-  padding: 150px;
+  padding: 170px;
   align-items: center;
   justify-content: center;
   transition: transform 300ms;
