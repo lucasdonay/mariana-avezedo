@@ -158,12 +158,18 @@
     justify-content: space-between;
   }
 
+  body.menu-expanded .close-menu {
+    position: absolute;
+    right: 0;
+    margin-right: 45px;
+  }
+
   body.menu-expanded .header-two ul {
     position: absolute;
     left: 0;
   }
 
-  body.menu-expanded .logo img {
+  body.menu-expanded .logo {
     display: none;
   }
 
@@ -328,8 +334,15 @@
     margin-top: 2rem !important;
   }
 
+
   body.menu-expanded .content-main {
     margin-top: 14rem !important;
+  }
+
+  body.menu-expanded .hero,
+  body.menu-expanded .template-tecs,
+  body.menu-expanded .content-main {
+    margin-top: 21rem !important;
   }
 
   body.menu-expanded .logo img {
@@ -354,7 +367,7 @@
     font-weight: 400;
   }
 
-  .text button {
+  .text a {
     padding: 2rem !important;
     font-size: 2rem !important;
   }
@@ -485,7 +498,6 @@
     flex-direction: column;
     justify-content: center;
     align-self: start;
-    text-align: center;
     padding: 0 5rem;
   }
 

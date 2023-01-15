@@ -391,13 +391,21 @@ main .content-main {
 
 }
 
-.tecs .card-home .text button a {
+.tecs .card-home .text a {
   text-decoration: none;
   font-size: 2.2rem;
-  padding: 0 2rem;
+  padding: 2rem 2rem;
   font-weight: 600;
+  border-radius: 8px;
+  text-transform: uppercase;
   letter-spacing: 1px;
+  background-color: var(--primary-color);
   color: white;
+  transition: ease-in-out 0.3s;
+}
+
+.tecs .card-home .text a:hover {
+  background-color: var(--second-color);
 }
 
 .tecs .card-home img {
@@ -490,11 +498,12 @@ main .content-main {
   font-weight: 300;
   font-family: 'Dosis', sans-serif;
   color: #504F51;
+  margin-bottom: 4rem;
 }
 
 .tratamento-ideal .text strong {}
 
-.text button {
+.tratamento-ideal .text a {
   background-color: var(--primary-color);
   color: white;
   font-size: 3rem;
@@ -504,13 +513,10 @@ main .content-main {
   border-radius: 10px;
   text-transform: uppercase;
   transition: ease-in-out 0.3s;
+  margin-top: 2rem;
 }
 
-.text button a {
-  color: white;
-}
-
-.text button:hover {
+.text a:hover {
   background-color: var(--third-color);
 }
 
