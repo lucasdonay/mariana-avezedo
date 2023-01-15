@@ -516,7 +516,7 @@
 
 @media (max-width: 1175px) {
   .template-tecs {
-    max-height: 155rem !important;
+    max-height: 180rem !important;
   }
 
   .tecnicas {
@@ -547,7 +547,7 @@
 
 @media (max-width: 745px) {
   .template-tecs {
-    max-height: 195rem !important;
+    max-height: 200rem !important;
   }
 
   .tecnicas {
@@ -570,7 +570,7 @@
 
 @media (max-width: 565px) {
   .template-tecs {
-    max-height: 225rem !important;
+    max-height: 245rem !important;
   }
 }
 
