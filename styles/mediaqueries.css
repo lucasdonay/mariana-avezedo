@@ -358,9 +358,9 @@
   }
 
 
-  /* body.menu-expanded .content-main {
+  body.menu-expanded .content-main {
     margin-top: 14rem !important;
-  } */
+  }
 
   body.menu-expanded .hero,
   body.menu-expanded .template-tecs,
