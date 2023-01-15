@@ -514,6 +514,10 @@
     padding: 0 5rem;
   }
 
+  .swiper {
+    height: 49rem !important;
+  }
+
   .tecnicas img {
     max-width: 400px !important;
     max-height: 400px !important;
@@ -540,6 +544,10 @@
 
   .hero-footer {
     background-size: cover !important;
+  }
+
+  .swiper-slide {
+    padding: 0 !important;
   }
 }
 

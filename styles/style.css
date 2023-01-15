@@ -782,7 +782,7 @@ ion-icon:hover {
 
 .tecnicas-mariana {
   width: 100%;
-  height: 10rem;
+  height: 0rem;
   margin-top: 0.6rem;
   margin-bottom: 55rem;
 }
@@ -1090,5 +1090,5 @@ body.menu-expanded button path {
 }
 
 body.menu-expanded .hero {
-  margin-top: 9rem;
+  margin-top: 15rem;
 }
