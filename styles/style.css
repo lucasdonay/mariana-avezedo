@@ -579,7 +579,7 @@ main .content-main {
 
 .cards {
   background-color: #f2f2f200;
-  padding: 5rem 0 11rem;
+  padding: 3rem 0 2rem;
 }
 
 .cards h2 {
@@ -1098,4 +1098,23 @@ body.menu-expanded button path {
 
 body.menu-expanded .hero {
   margin-top: 15rem;
+}
+
+.margin-top {
+  margin-top: -90px;
+}
+
+.maisdepoimentos {
+  font-size: 1.3rem;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-transform: uppercase;
+  color: var(--primary-color);
 }
